@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '../components/Header/Header'
 import About from '../components/About/About'
 import Skills from '../components/Skills/Skills'
+import Works from '../components/Works/Works'
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,8 @@ const Home: NextPage = () => {
       <Header />
       <About />
       <Skills />
+      <Works />
+      <About />
 
       
       

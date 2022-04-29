@@ -3,4 +3,12 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  theme: {
+    extend: {
+      objectPosition: {
+        'center-bottom': 'center bottom',
+      }
+    },
+  }
+
 }

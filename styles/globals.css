@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 /* html, */
-bod {
+
+/* bod {
     background : black;
     padding:0;
     margin : 0;
@@ -11,4 +12,23 @@ bod {
     line-height : 1.1;
     letter-spacing : 0rem;
 
+} */
+
+
+@layer components {
+    .HoverAnimation{
+        /* @apply object-left-top hover:object-bottom
+        transition duration-500 ease-out; */
+        object-fit: cover;
+        object-position: top left;
+        overflow: hidden;
+        transition: all 5s ease;
+        border: 1px solid rgba(0,0,0,.1)   
+    }
+
+    
+    .HoverAnimation:hover {
+        border: 1px solid rgba(200,200,200,.96) ;
+        object-position: bottom;
+    }
 }
