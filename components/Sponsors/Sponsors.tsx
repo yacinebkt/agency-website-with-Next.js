@@ -1,5 +1,6 @@
 import React from 'react'
 import Logos from '../Companies/Logos'
+import Testimonials from '../Testimonials/Testimonials'
 
 const Sponsors : React.FC = () => (
     <section className='bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32'>
@@ -24,9 +25,7 @@ const Sponsors : React.FC = () => (
         </div>
 
 
-        <div>
-            Testimonial
-        </div>
+      <Testimonials />
 
         <div className='flex-1 bg-black'> </div>
 

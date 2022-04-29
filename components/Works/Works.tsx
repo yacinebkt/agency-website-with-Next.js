@@ -131,9 +131,9 @@ const Works = () => (
               <img
                 className=" h-[50vh] min-w-full overflow-hidden border-[rgba(0,0,0,.2)] 
                 object-cover HoverAnimation
-                    
+
                     "
-                src="/assets/Portofolio/portofolio04.PNG"
+                src="/assets/Portofolio/portofolio04.png"
                 // layout='responsive'
                 // width={840}
                 // height={1600}
