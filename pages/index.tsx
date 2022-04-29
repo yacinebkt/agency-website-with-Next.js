@@ -5,6 +5,7 @@ import Header from '../components/Header/Header'
 import About from '../components/About/About'
 import Skills from '../components/Skills/Skills'
 import Works from '../components/Works/Works'
+import Sponsors from '../components/Sponsors/Sponsors'
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
       <About />
       <Skills />
       <Works />
-      <About />
+      <Sponsors />
 
       
       

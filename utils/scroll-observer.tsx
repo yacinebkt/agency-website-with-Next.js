@@ -1,4 +1,4 @@
-import React,{useRef, useContext, useState, useCallback, useEffect} from 'react'
+import React,{ useState, useCallback, useEffect} from 'react'
 
 interface ScrollValue {
     scrollY :  number
@@ -15,8 +15,9 @@ const ScrollOpserve:React.FC = ({children}) => {
     },[] )
 
     useEffect(()=>{
-        document.addEventListener('scroll', handleScroll, {passive: true} )
-        // retrun () => document.removeEventListener('scroll', handleScroll)
+        document.addEventListener('scroll', handleScroll, {passive: true})
+         return () => document.removeEventListener('scroll', handleScroll)
+        
     },[handleScroll])
 
 
