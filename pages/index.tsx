@@ -7,6 +7,7 @@ import Skills from '../components/Skills/Skills'
 import Works from '../components/Works/Works'
 import Sponsors from '../components/Sponsors/Sponsors'
 import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Works />
       <Sponsors />
       <Contact />
+      <Footer />
 
       
       
